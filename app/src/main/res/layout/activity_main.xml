@@ -5,9 +5,8 @@
     android:orientation="vertical"
     android:padding="16dp">
 
-    <view
+    <com.javiertorres.pendulum.CanvasView
         android:id="@+id/view"
-        class="com.javiertorres.pendulum.CanvasView"
         android:layout_width="fill_parent"
         android:layout_height="0dp"
         android:layout_weight="1" />
