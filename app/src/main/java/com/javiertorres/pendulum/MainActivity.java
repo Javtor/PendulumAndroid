@@ -55,6 +55,9 @@ public class MainActivity extends AppCompatActivity {
         double friction = Double.parseDouble(((EditText) findViewById(R.id.txtFriction)).getText().toString());
         double velocity = Double.parseDouble(((EditText) findViewById(R.id.txtVelocity)).getText().toString());
 
+        if (length < 0 || mass < 0 || gravity < 0 || friction < 0) {
+            throw new NumberFormatException();
+        }
         CanvasView view = findViewById(R.id.view);
         view.initPendulum(angle, length, mass, gravity, friction, velocity);
 
