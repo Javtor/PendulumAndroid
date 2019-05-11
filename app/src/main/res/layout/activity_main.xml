@@ -87,7 +87,7 @@
             android:layout_columnWeight="1"
             android:layout_gravity="fill_horizontal"
             android:gravity="center"
-            android:inputType="numberDecimal" />
+            android:inputType="numberDecimal|numberSigned" />
 
         <TextView
             android:layout_width="0dp"
@@ -121,7 +121,7 @@
             android:layout_columnWeight="1"
             android:layout_gravity="fill_horizontal"
             android:gravity="center"
-            android:inputType="numberDecimal" />
+            android:inputType="numberDecimal|numberSigned" />
 
 
         <Space
