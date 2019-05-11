@@ -115,7 +115,7 @@
             android:text="@string/velocity_s" />
 
         <EditText
-            android:id="@+id/txtVel"
+            android:id="@+id/txtVelocity"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_columnWeight="1"

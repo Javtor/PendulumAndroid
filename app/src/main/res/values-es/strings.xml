@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Péndulo</string>
+    <string name="angle">Ángulo (°)</string>
+    <string name="check_inputs">Verifica tus entradas</string>
+    <string name="error">Error</string>
+    <string name="friction">Fricción</string>
+    <string name="gravity_m_s">Gravedad (m/s²)</string>
+    <string name="length_m">Longitud (m)</string>
+    <string name="mass_kg">Masa (kg)</string>
+    <string name="start">Empezar</string>
+    <string name="stop">Parar</string>
+    <string name="velocity_s">Velocidad (°/s)</string>
+</resources>

@@ -8,4 +8,6 @@
     <string name="friction">Friction</string>
     <string name="angle">Angle (°)</string>
     <string name="length_m">Length (m)</string>
+    <string name="error">Error</string>
+    <string name="check_inputs">Check your inputs</string>
 </resources>
